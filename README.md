@@ -38,6 +38,13 @@ ssh -T git@github.com
 git ls-remote git@github.com:anhhung04/pi-vuln-hunting.git HEAD
 ```
 
+Private keys must be mode `600` or `ssh` silently skips them and the clone fails with
+`Permission denied (publickey)` — even for repos you reached fine from an interactive shell:
+
+```sh
+chmod 600 ~/.ssh/id_ed25519
+```
+
 ## Plugins
 
 | Plugin | Visibility | Description |
@@ -49,6 +56,7 @@ git ls-remote git@github.com:anhhung04/pi-vuln-hunting.git HEAD
 | `pi-vuln-hunting` | **private** | Vulnerability hunting pipeline — inventory → audit swarm → live PoC validation → report |
 | `pi-patchleak` | **private** | Patch-to-PoC diffing — compare two versions, surface the security fix, emit a leak report |
 | `pi-osint` | public | OSINT / attack-surface skills — recon methodology, autopilot pipeline, cloud exposure, IdP recon |
+| `pi-red` | public | 79 offensive-security skills across 23 categories — web, AD, cloud, container, wireless, exploit-dev, fuzzing, crypto, forensics |
 
 ## Updating
 

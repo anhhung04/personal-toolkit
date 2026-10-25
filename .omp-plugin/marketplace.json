@@ -114,5 +114,21 @@
       "category": "security",
       "keywords": ["osint", "recon", "attack-surface", "exposure"]
     }
+    ,
+    {
+      "name": "pi-red",
+      "description": "Offensive security skill library — 79 red-team playbooks across 23 categories: web, Active Directory, cloud, container, wireless, exploit development, fuzzing, crypto, forensics, post-exploitation, OSINT and more.",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:anhhung04/pi-red.git",
+        "ref": "main"
+      },
+      "author": { "name": "anhhung04" },
+      "homepage": "https://github.com/anhhung04/pi-red",
+      "repository": "git@github.com:anhhung04/pi-red.git",
+      "license": "MIT",
+      "category": "security",
+      "keywords": ["redteam", "offensive", "pentest", "skills", "bugbounty"]
+    }
   ]
 }
