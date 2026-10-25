@@ -1,0 +1,118 @@
+{
+  "name": "personal-toolkit",
+  "description": "Personal oh-my-pi (omp) plugin marketplace — every plugin authored by anhhung04, including private repos fetched over SSH",
+  "owner": {
+    "name": "anhhung04"
+  },
+  "metadata": {
+    "description": "Personal toolkit: Docker, IaC, OFX, Obsidian memory, vulnerability hunting, patch-to-PoC diffing and OSINT skills.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "omp-docker",
+      "description": "Native Docker tools and skills for omp — containers, images, builds, Compose projects, Swarm clusters, agent sandboxes, networks, volumes, diagnostics and cleanup.",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:anhhung04/omp-docker.git",
+        "ref": "main"
+      },
+      "author": { "name": "anhhung04" },
+      "homepage": "https://github.com/anhhung04/omp-docker",
+      "repository": "git@github.com:anhhung04/omp-docker.git",
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "category": "infrastructure",
+      "keywords": ["docker", "compose", "swarm", "containers", "sandbox", "build"]
+    },
+    {
+      "name": "omp-iac",
+      "description": "Infrastructure-as-Code tools and skills for omp — OpenTofu/Terraform, Ansible, Pulumi and the Floci local cloud emulator.",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:anhhung04/omp-iac.git",
+        "ref": "main"
+      },
+      "author": { "name": "anhhung04" },
+      "homepage": "https://github.com/anhhung04/omp-iac",
+      "repository": "git@github.com:anhhung04/omp-iac.git",
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "category": "infrastructure",
+      "keywords": ["iac", "opentofu", "terraform", "ansible", "pulumi", "floci"]
+    },
+    {
+      "name": "omp-ofx",
+      "description": "OFX red-team workflow engine integration for omp — run/list/validate workflows, detached sessions and fleets, cloud profiles/instances, config and module scaffolding.",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:anhhung04/omp-ofx.git",
+        "ref": "main"
+      },
+      "author": { "name": "anhhung04" },
+      "homepage": "https://github.com/anhhung04/omp-ofx",
+      "repository": "git@github.com:anhhung04/omp-ofx.git",
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "category": "security",
+      "keywords": ["ofx", "redteam", "workflow", "recon", "fleet"]
+    },
+    {
+      "name": "omp-memory-obsidian",
+      "description": "Long-term memory for omp backed by a plain Obsidian vault — wiki-linked topic pages, append-only daily logs, prompt-time recall and turn-cadence retention via the extension API.",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:anhhung04/omp-memory-obsidian.git",
+        "ref": "main"
+      },
+      "author": { "name": "anhhung04" },
+      "homepage": "https://github.com/anhhung04/omp-memory-obsidian",
+      "repository": "git@github.com:anhhung04/omp-memory-obsidian.git",
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "category": "productivity",
+      "keywords": ["memory", "obsidian", "vault", "wiki"]
+    },
+    {
+      "name": "pi-vuln-hunting",
+      "description": "Vulnerability hunting, 0-day finding, code review and auditing: inventory-before-audit pipeline with an agent swarm, persisted findings and live PoC validation in Docker/cloud labs.",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:anhhung04/pi-vuln-hunting.git",
+        "ref": "main"
+      },
+      "author": { "name": "anhhung04" },
+      "homepage": "https://github.com/anhhung04/pi-vuln-hunting",
+      "repository": "git@github.com:anhhung04/pi-vuln-hunting.git",
+      "license": "MIT",
+      "category": "security",
+      "keywords": ["security", "audit", "vulnerability", "poc", "0day"]
+    },
+    {
+      "name": "pi-patchleak",
+      "description": "Patch-to-PoC diffing: compare two versions of a codebase, surface the security fix, and emit a structured leak report.",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:anhhung04/pi-patchleak.git",
+        "ref": "main"
+      },
+      "author": { "name": "anhhung04" },
+      "homepage": "https://github.com/anhhung04/pi-patchleak",
+      "repository": "git@github.com:anhhung04/pi-patchleak.git",
+      "license": "MIT",
+      "category": "security",
+      "keywords": ["patch", "diff", "poc", "vulnerability"]
+    },
+    {
+      "name": "pi-osint",
+      "description": "External OSINT and attack-surface skills package — recon methodology, autopilot pipeline, cloud/SaaS exposure and identity-provider recon.",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:anhhung04/pi-osint.git",
+        "ref": "main"
+      },
+      "author": { "name": "anhhung04" },
+      "homepage": "https://github.com/anhhung04/pi-osint",
+      "repository": "git@github.com:anhhung04/pi-osint.git",
+      "license": "MIT",
+      "category": "security",
+      "keywords": ["osint", "recon", "attack-surface", "exposure"]
+    }
+  ]
+}
