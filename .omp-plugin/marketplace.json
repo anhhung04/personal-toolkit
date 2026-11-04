@@ -5,7 +5,7 @@
     "name": "anhhung04"
   },
   "metadata": {
-    "description": "Personal toolkit: Docker, IaC, OFX, Obsidian memory, Tracecat automation, vulnerability hunting, patch-to-PoC diffing and OSINT skills.",
+    "description": "Personal toolkit: Docker, IaC, OFX, Obsidian wiki, Tracecat automation, vulnerability hunting, patch-to-PoC diffing and OSINT skills.",
     "version": "1.0.0"
   },
   "plugins": [
@@ -56,7 +56,7 @@
     },
     {
       "name": "omp-memory-obsidian",
-      "description": "Long-term memory for omp backed by a plain Obsidian vault — wiki-linked topic pages, append-only daily logs, prompt-time recall and turn-cadence retention via the extension API.",
+      "description": "Obsidian wiki for omp — the agent maintains an interlinked one-concept-per-page vault ([[wikilinks]], generated INDEX.md) through explicit wiki_write/wiki_read/wiki_search/wiki_backlinks tools.",
       "source": {
         "source": "url",
         "url": "git@github.com:anhhung04/omp-memory-obsidian.git",
@@ -67,7 +67,7 @@
       "repository": "git@github.com:anhhung04/omp-memory-obsidian.git",
       "license": "PolyForm-Noncommercial-1.0.0",
       "category": "productivity",
-      "keywords": ["memory", "obsidian", "vault", "wiki"]
+      "keywords": ["wiki", "obsidian", "vault", "notes", "markdown"]
     },
     {
       "name": "tracecat",

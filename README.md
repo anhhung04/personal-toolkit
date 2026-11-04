@@ -52,7 +52,7 @@ chmod 600 ~/.ssh/id_ed25519
 | `omp-docker` | public | Native Docker tools — containers, images, builds, Compose, Swarm, sandboxes, networks, volumes, diagnostics, cleanup |
 | `omp-iac` | public | IaC tools — OpenTofu/Terraform, Ansible, Pulumi, Floci local cloud emulation |
 | `omp-ofx` | public | OFX red-team workflow engine — run/list/validate workflows, sessions, fleets, cloud profiles, config |
-| `omp-memory-obsidian` | public | Obsidian-vault long-term memory — wiki topic pages, daily logs, prompt-time recall |
+| `omp-memory-obsidian` | public | Obsidian wiki — one concept per page, `[[wikilinks]]`, generated `INDEX.md`; explicit `wiki_write`/`wiki_read`/`wiki_search`/`wiki_backlinks` tools, no implicit recall or retention |
 | `tracecat` | public | Tracecat MCP + Agent Skills — workflows, actions, cases, tables, agent presets, Slack bots, workspace skill uploads (port of [TracecatHQ/tracecat-plugins](https://github.com/TracecatHQ/tracecat-plugins)) |
 | `pi-vuln-hunting` | **private** | Vulnerability hunting pipeline — inventory → audit swarm → live PoC validation → report |
 | `pi-patchleak` | **private** | Patch-to-PoC diffing — compare two versions, surface the security fix, emit a leak report |
