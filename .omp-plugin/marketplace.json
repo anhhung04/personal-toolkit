@@ -5,7 +5,7 @@
     "name": "anhhung04"
   },
   "metadata": {
-    "description": "Personal toolkit: Docker, IaC, OFX, Obsidian memory, vulnerability hunting, patch-to-PoC diffing and OSINT skills.",
+    "description": "Personal toolkit: Docker, IaC, OFX, Obsidian memory, Tracecat automation, vulnerability hunting, patch-to-PoC diffing and OSINT skills.",
     "version": "1.0.0"
   },
   "plugins": [
@@ -68,6 +68,21 @@
       "license": "PolyForm-Noncommercial-1.0.0",
       "category": "productivity",
       "keywords": ["memory", "obsidian", "vault", "wiki"]
+    },
+    {
+      "name": "tracecat",
+      "description": "Tracecat MCP integration with portable Agent Skills for omp — operate workflows, actions, cases, tables, integrations, agent presets, Slack bots and workspace skill uploads through the Tracecat MCP server.",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:anhhung04/omp-tracecat.git",
+        "ref": "main"
+      },
+      "author": { "name": "anhhung04" },
+      "homepage": "https://github.com/anhhung04/omp-tracecat",
+      "repository": "git@github.com:anhhung04/omp-tracecat.git",
+      "license": "Apache-2.0",
+      "category": "security",
+      "keywords": ["tracecat", "mcp", "security-automation", "agent-skills"]
     },
     {
       "name": "pi-vuln-hunting",
