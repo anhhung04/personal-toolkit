@@ -6,11 +6,11 @@
   },
   "metadata": {
     "description": "Personal toolkit: Docker, IaC, OFX, Obsidian wiki, Tracecat automation, vulnerability hunting, patch-to-PoC diffing and OSINT skills.",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
-      "version": "0.2.2",
+      "version": "0.2.3",
       "name": "omp-docker",
       "description": "Native Docker tools and skills for omp — containers, images, builds, Compose projects, Swarm clusters, agent sandboxes, networks, volumes, diagnostics and cleanup.",
       "source": {
@@ -26,7 +26,7 @@
       "keywords": ["docker", "compose", "swarm", "containers", "sandbox", "build"]
     },
     {
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "omp-iac",
       "description": "Infrastructure-as-Code tools and skills for omp — OpenTofu/Terraform, Ansible, Pulumi and the Floci local cloud emulator.",
       "source": {
@@ -42,7 +42,7 @@
       "keywords": ["iac", "opentofu", "terraform", "ansible", "pulumi", "floci"]
     },
     {
-      "version": "0.2.0",
+      "version": "0.2.1",
       "name": "omp-ofx",
       "description": "OFX red-team workflow engine integration for omp — run/list/validate workflows, detached sessions and fleets, cloud profiles/instances, config and module scaffolding.",
       "source": {
@@ -58,7 +58,7 @@
       "keywords": ["ofx", "redteam", "workflow", "recon", "fleet"]
     },
     {
-      "version": "0.3.1",
+      "version": "0.3.2",
       "name": "omp-memory-obsidian",
       "description": "Obsidian wiki for omp — the agent maintains an interlinked one-concept-per-page vault ([[wikilinks]], generated INDEX.md) through explicit wiki_write/wiki_read/wiki_search/wiki_backlinks tools.",
       "source": {
@@ -74,7 +74,7 @@
       "keywords": ["wiki", "obsidian", "vault", "notes", "markdown"]
     },
     {
-      "version": "0.5.0",
+      "version": "0.5.1",
       "name": "tracecat",
       "description": "Tracecat MCP integration with portable Agent Skills for omp — operate workflows, actions, cases, tables, integrations, agent presets, Slack bots and workspace skill uploads through the Tracecat MCP server.",
       "source": {
@@ -90,7 +90,7 @@
       "keywords": ["tracecat", "mcp", "security-automation", "agent-skills"]
     },
     {
-      "version": "0.1.0",
+      "version": "0.1.1",
       "name": "pi-vuln-hunting",
       "description": "Vulnerability hunting, 0-day finding, code review and auditing: inventory-before-audit pipeline with an agent swarm, persisted findings and live PoC validation in Docker/cloud labs.",
       "source": {
@@ -106,7 +106,7 @@
       "keywords": ["security", "audit", "vulnerability", "poc", "0day"]
     },
     {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "pi-osint",
       "description": "External OSINT and attack-surface skills package — recon methodology, autopilot pipeline, cloud/SaaS exposure and identity-provider recon.",
       "source": {
@@ -122,7 +122,7 @@
       "keywords": ["osint", "recon", "attack-surface", "exposure"]
     },
     {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "pi-red",
       "description": "Offensive security skill library — 79 red-team playbooks across 23 categories: web, Active Directory, cloud, container, wireless, exploit development, fuzzing, crypto, forensics, post-exploitation, OSINT and more.",
       "source": {
